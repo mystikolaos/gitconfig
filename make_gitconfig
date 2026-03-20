@@ -3,7 +3,7 @@
 # Makes global Git configuration file with my settings and prints the current
 # global git config. Existing file is overwritten without warning or backup!
 #
-# Latest revision: 2026-03-16
+# Latest revision: 2026-03-20
 #
 # Created and unlicensed by Mikołaj Bartnicki <mikolaj@bartnicki.org>;
 # please read UNLICENSE file for details.
@@ -13,7 +13,7 @@ set -e
 
 code_excludes_file="~/.gitignore"
 commit_gpgsign="true"
-core_autocrlf="false" # Set "true" for Windows
+core_autocrlf="false" # Set "true" for Windows (TODO: autodetect)
 core_editor="vim"
 gpg_format="ssh"
 pull_rebase="false"
