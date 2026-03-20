@@ -3,7 +3,7 @@
 # Makes global ~/.gitignore file. Existing file is overwritten without warning
 # or backup!
 #
-# Latest revision: 2026-03-16
+# Latest revision: 2026-03-20
 #
 # Created and unlicensed by Mikołaj Bartnicki <mikolaj@bartnicki.org>
 # please read UNLICENSE file for details.
@@ -11,7 +11,7 @@
 # Stop and exit on first error.
 set -e
 
-ignore_list="windows,linux,git,vim"
+ignore_list="git,linux,vim,windows"
 gitignore_url="https://www.toptal.com/developers/gitignore/api/$ignore_list"
 gitignore_file="$HOME/.gitignore"
 
