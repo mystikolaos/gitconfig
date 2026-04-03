@@ -20,7 +20,7 @@ jobs:
       make-executable: true
       expected-file: "~/.gitconfig"
 
-  test-gitconfig:
+  test-gitignore:
     uses: mystikolaos/actions/.github/workflows/check-shell-command.yml@main
     with:
       packages: "git"
