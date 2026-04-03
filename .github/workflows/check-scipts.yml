@@ -16,7 +16,7 @@ jobs:
     uses: mystikolaos/actions/.github/workflows/check-shell-command.yml@main
     with:
       packages: "git"
-      command: "make_gitconfig"
+      command: "./make_gitconfig"
       make-executable: true
       expected-file: "~/.gitconfig"
 
@@ -24,6 +24,6 @@ jobs:
     uses: mystikolaos/actions/.github/workflows/check-shell-command.yml@main
     with:
       packages: "git"
-      command: "make_gitignore"
+      command: "./make_gitignore"
       make-executable: true
       expected-file: "~/.gitignore"
