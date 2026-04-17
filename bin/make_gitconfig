@@ -3,7 +3,7 @@
 # Makes global Git configuration file with my settings and prints the current
 # global git config. Existing file is overwritten without warning or backup!
 #
-# Latest revision: 2026-03-20
+# Latest revision: 2026-04-17
 #
 # Created and unlicensed by Mikołaj Bartnicki <mikolaj@bartnicki.org>;
 # please read UNLICENSE file for details.
