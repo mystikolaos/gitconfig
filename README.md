@@ -6,11 +6,11 @@ A set of Bash scripts for setting up my Git configuration. The scripts are tailo
 
 Just run the scripts in any console supporting Bash commands. On Linux any terminal will work, on Windows use Git Bash. To create global Git configuration file, run:
 
-    make_gitconfig
+    ./bin/make_gitconfig
 
 And to create global `.gitignore` file, run:
 
-    make_gitignore
+    ./bin/make_gitignore
 
 That's it, done!
 
